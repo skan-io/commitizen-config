@@ -31,7 +31,9 @@
     "@skan-io/babel-config-nodejs": "^1.0.0",
     "@skan-io/eslint-config-base": "^1.0.2",
     "@skan-io/jest-config-base": "^1.0.0",
-    "@skan-io/remark-config": "^1.0.1"
+    "@skan-io/remark-config": "^1.0.1",
+    "npx-run": "^2.1.2",
+    "rimraf": "^2.6.3"
   },
   "repository": {
     "type": "git",
