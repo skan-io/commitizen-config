@@ -29,7 +29,7 @@ describe('Writing .remarkrc file', ()=> {
     expect(join).toHaveBeenCalledWith(path, '../../..', '.releaserc');
     expect(writeFileSync).toHaveBeenCalledWith(
       'test-path',
-      JSON.stringify(remarkConfig, null, JSON_SPACING)
+      JSON.stringify(releaseConfig, null, JSON_SPACING)
     );
   });
 });
