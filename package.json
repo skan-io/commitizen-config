@@ -23,14 +23,14 @@
     "postinstall": "./find.sh"
   },
   "dependencies": {
+    "@skan-io/babel-config-nodejs": "^1.0.1",
+    "@skan-io/eslint-config-base": "^1.0.3",
+    "@skan-io/jest-config-base": "^1.0.0",
     "commitizen": "^3.0.5",
-    "semantic-release": "^15.13.3",
-    "cz-conventional-changelog": "^2.1.0"
+    "cz-conventional-changelog": "^2.1.0",
+    "semantic-release": "^15.13.3"
   },
   "devDependencies": {
-    "@skan-io/babel-config-nodejs": "^1.0.0",
-    "@skan-io/eslint-config-base": "^1.0.2",
-    "@skan-io/jest-config-base": "^1.0.0",
     "@skan-io/remark-config": "^1.0.1",
     "npx-run": "^2.1.2",
     "rimraf": "^2.6.3"
